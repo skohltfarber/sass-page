@@ -1,0 +1,25 @@
+@import 'font';
+@import 'theme';
+
+body {
+	font: 100% $font-stack;
+	color: $brandcolor;
+}
+
+.layout {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 56px 1fr;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+.navbar {
+	height: 56px;
+	background: $brandcolor;
+}
+
+.content {
+	height: 100%;
+	background: cornflowerblue;
+}

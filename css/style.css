@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: crimson; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: crimson; }
+
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 56px 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; }
+
+.navbar {
+  height: 56px;
+  background: crimson; }
+
+.content {
+  height: 100%;
+  background: cornflowerblue; }

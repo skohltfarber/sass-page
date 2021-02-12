@@ -1,0 +1,9 @@
+{
+"scripts": {
+  "sass": "node-sass scss/main.scss css/style.css"
+},  
+"devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+
+}
