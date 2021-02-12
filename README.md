@@ -1,6 +1,6 @@
 # sass-page
 
-## Homework: Due 2/15/21 by 8pmHomework: Due 2/15/21 by 8pm
+## Homework: Due 2/15/21 by 8pm
 
 #### Goal: Create a simple web page that is styled from your first SASS based stylesheet.
 
