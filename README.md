@@ -5,7 +5,7 @@
 #### Goal: Create a simple web page that is styled from your first SASS based stylesheet.
 
 1. New project folder named “sass-page” / GitHub repo
-1. Install the “node-scss ” dependency
+1. Install the “node-sass ” dependency
 1. Add a “sass” script command to your package.json
 1. Create your own SASS file to generate a style.css
    1. Use at least 1 mix-in
