@@ -1,5 +1,6 @@
 @import 'font';
 @import 'theme';
+@import 'nav';
 
 body {
 	font: 100% $font-stack;
@@ -9,13 +10,13 @@ body {
 .layout {
 	height: 100vh;
 	display: grid;
-	grid-template-rows: 56px 1fr;
+	grid-template-rows: 400px 1fr;
 	grid-template-columns: 1fr;
 	grid-gap: 10px;
+	color: white;
 }
 
 .navbar {
-	height: 56px;
 	background: $brandcolor;
 }
 

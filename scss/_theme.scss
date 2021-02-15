@@ -1,2 +1,49 @@
 // $primary-color: crimson;
 $brandcolor: crimson;
+$ctacolor: #5b1db0;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $brandcolor;
+}
+
+.call-to-action {
+	background-color: $ctacolor;
+	color: white;
+}
+
+button.button2 {
+	display: inline-block;
+	padding: 0.5em 3em;
+	border: 0.16em solid #ffffff;
+	margin: 0 0.3em 0.3em 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+	transition: all 0.15s;
+}
+
+button.button2:hover {
+	color: #dddddd;
+	border-color: #dddddd;
+}
+
+button.button2:active {
+	color: #bbbbbb;
+	border-color: #bbbbbb;
+}
+
+@media all and (max-width: 30em) {
+	  button.button2 {
+		display: block;
+		margin: 0.4em auto;
+	}
+}
